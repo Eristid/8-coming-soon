@@ -1,20 +1,20 @@
 /* custom CSS - everything else, that wasn't styled with components css */
 
- /* layout */
- .container.hero {
+/* layout */
+.container.hero {
     padding-bottom: var(--section-padding);
 }
+
 footer.container {
-   padding-top: 0;
-   padding-bottom: calc(var(--section-padding) * 1.5);
+    padding-top: 0;
+    padding-bottom: calc(var(--section-padding) * 1.5);
 }
-   footer.container > .row-short {
-       margin-top: var(--section-padding);
-   }
+    footer.container > .row-short {
+        margin-top: var(--section-padding);
+    }
 
 .bg-main-color {
     background-color: var(--main-color);
-} 
 }
 
 /* hero */
@@ -50,4 +50,4 @@ footer.container {
 
 /* main content */
 
-/* footer */ 
+/* footer */
