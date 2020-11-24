@@ -1,15 +1,13 @@
 /* custom CSS - everything else, that wasn't styled with components css */
-
 /* layout */
 .container.hero {
     padding-bottom: var(--section-padding);
     background-image: url(../img/hero-image.jpg);
     background-size: cover;
     background-position: bottom center;
-    background-attachment: fixed; 
-    height: 100vh;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
-
 footer.container {
     padding-top: 0;
     padding-bottom: calc(var(--section-padding) * 1.5);
@@ -17,16 +15,13 @@ footer.container {
     footer.container > .row-short {
         margin-top: var(--section-padding);
     }
-
 .bg-main-color {
     background-color: var(--main-color);
 }
-
 /* hero */
 .hero {
     text-align: center;
 }
-
 .hero img {
     height: 40px;
     margin-bottom: calc(var(--hero-space) * 2);
@@ -52,7 +47,6 @@ footer.container {
 .hero .form {
     margin-bottom: var(--hero-space);
 }
-
 /* main content */
 main h2 {
     display: inline-block;
@@ -72,12 +66,16 @@ main p {
 }
     main p > a {
         color: var(--secondary-color);
-        text-decoration-line: none;
-    }
+         text-decoration-line: none;
+     }
 
-/* footer */
-footer {
-    text-align: center;
+ main .form > .btn {
+     float: right;
+ }
+
+ /* footer */
+ footer {
+     text-align: center;
     line-height: 32px;
     font-size: 17px;
     color: #fffa;
@@ -135,7 +133,6 @@ footer {
         color: #fff;
         text-decoration: none;
     }
-
 @media (max-width: 700px) {
     footer .text-trio > .text {
         width: 100%;
