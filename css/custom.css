@@ -1,4 +1,5 @@
 /* custom CSS - everything else, that wasn't styled with components css */
+
 /* layout */
 .container.hero {
     padding-bottom: var(--section-padding);
@@ -8,6 +9,7 @@
     background-attachment: fixed;
     min-height: 100vh;
 }
+
 footer.container {
     padding-top: 0;
     padding-bottom: calc(var(--section-padding) * 1.5);
@@ -15,13 +17,16 @@ footer.container {
     footer.container > .row-short {
         margin-top: var(--section-padding);
     }
+
 .bg-main-color {
     background-color: var(--main-color);
 }
+
 /* hero */
 .hero {
     text-align: center;
 }
+
 .hero img {
     height: 40px;
     margin-bottom: calc(var(--hero-space) * 2);
@@ -45,8 +50,22 @@ footer.container {
     margin-bottom: calc(var(--hero-space) * 2);
 }
 .hero .form {
+    width: 90%;
     margin-bottom: var(--hero-space);
 }
+    .hero .form > input {
+        width: 100%;
+        color: #fff;
+        background-color: transparent;
+        border-bottom-color: #fff;
+    }
+        .hero .form > input::placeholder {
+            color: #fff;
+        }
+    .hero .form > .btn {
+        float: none;
+    }
+
 /* main content */
 main h2 {
     display: inline-block;
@@ -66,16 +85,16 @@ main p {
 }
     main p > a {
         color: var(--secondary-color);
-         text-decoration-line: none;
-     }
+        text-decoration-line: none;
+    }
 
- main .form > .btn {
-     float: right;
- }
+main .form > .btn {
+    float: right;
+}
 
- /* footer */
- footer {
-     text-align: center;
+/* footer */
+footer {
+    text-align: center;
     line-height: 32px;
     font-size: 17px;
     color: #fffa;
@@ -133,6 +152,7 @@ main p {
         color: #fff;
         text-decoration: none;
     }
+
 @media (max-width: 700px) {
     footer .text-trio > .text {
         width: 100%;
