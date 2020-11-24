@@ -1,5 +1,5 @@
 .btn {
-    display: inline block;
+    display: inline-block;
     float: left;
     padding: 10px 30px;
     background-color: var(--secondary-color);
@@ -9,10 +9,10 @@
     line-height: 20px;
     border-radius: 4px;
     cursor: pointer;
-    box-shadow: 0px 4px 8px  #0008;
-}
+    box-shadow: 0 4px 8px #0008;
 
-.btn hover {
-    box-shadow: 0px 4px 8px  #000a;
+}
+.btn:hover {
+    box-shadow: 4px 10px #000a;
     opacity: 1;
 }
