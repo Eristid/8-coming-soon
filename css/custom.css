@@ -42,13 +42,27 @@ footer.container {
     color: var(--grey-color);
 }
 .hero .clock {
-    margin-bottom: calc(var(--hero-space) * 2);
-}
-.hero .form {
-    margin-bottom: var(--hero-space);
-}
-/* main content */
-main h2 {
+     margin-bottom: calc(var(--hero-space) * 2);
+ }
+ .hero .form {
+     width: 90%;
+     margin-bottom: var(--hero-space);
+ }
+     .hero .form > input {
+         width: 100%;
+         color: #fff;
+         background-color: transparent;
+         border-bottom-color: #fff;
+     }
+         .hero .form > input::placeholder {
+             color: #fff;
+         }
+     .hero .form > .btn {
+         float: none;
+     }
+
+ /* main content */
+ main h2 {
     display: inline-block;
     width: 100%;
     margin-bottom: var(--main-space);
@@ -66,16 +80,14 @@ main p {
 }
     main p > a {
         color: var(--secondary-color);
-         text-decoration-line: none;
-     }
-
- main .form > .btn {
-     float: right;
- }
-
- /* footer */
- footer {
-     text-align: center;
+        text-decoration-line: none;
+    }
+main .form > .btn {
+    float: right;
+}
+/* footer */
+footer {
+    text-align: center;
     line-height: 32px;
     font-size: 17px;
     color: #fffa;
