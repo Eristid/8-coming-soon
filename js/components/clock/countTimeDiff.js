@@ -1,4 +1,3 @@
-
 function countTimeDiff() {
 
     // einamieji metai  (2020)
