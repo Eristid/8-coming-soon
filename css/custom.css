@@ -1,5 +1,4 @@
 /* custom CSS - everything else, that wasn't styled with components css */
-
 /* layout */
 .container.hero {
     padding-bottom: var(--section-padding);
@@ -9,7 +8,6 @@
     background-attachment: fixed;
     min-height: 100vh;
 }
-
 footer.container {
     padding-top: 0;
     padding-bottom: calc(var(--section-padding) * 1.5);
@@ -17,16 +15,21 @@ footer.container {
     footer.container > .row-short {
         margin-top: var(--section-padding);
     }
+back-to-top
 
 .bg-main-color {
     background-color: var(--main-color);
 }
 
+
+.bg-main-color {
+    background-color: var(--main-color);
+}
+develop
 /* hero */
 .hero {
     text-align: center;
 }
-
 .hero img {
     height: 40px;
     margin-bottom: calc(var(--hero-space) * 2);
@@ -59,13 +62,16 @@ footer.container {
         background-color: transparent;
         border-bottom-color: #fff;
     }
+back-to-top
         .hero .form > input:not(.btn)::placeholder {
+
+        .hero .form > input::placeholder {
+ develop
             color: #fff;
         }
     .hero .form > .btn {
         float: none;
     }
-
 /* main content */
 main h2 {
     display: inline-block;
@@ -87,11 +93,12 @@ main p {
         color: var(--secondary-color);
         text-decoration-line: none;
     }
+back-to-top
 
+ develop
 main .form > .btn {
     float: right;
 }
-
 /* footer */
 footer {
     text-align: center;
@@ -103,6 +110,7 @@ footer {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+back-to-top
         gap: 10px;
         padding: 10px 20px;
         border-bottom: 1px solid #fff;
@@ -154,11 +162,67 @@ footer {
         display: inline-block;
         width: 100%;
     }
+
+         gap: 10px;
+         padding: 10px 20px;
+         border-bottom: 1px solid #fff;
+         position: relative;
+     }
+     footer .fa {
+     footer .social.fa {
+         display: inline-block;
+         width: 40px;
+         padding: 10px;
+ @@ -117,10 +118,15 @@ footer {
+         border-radius: 50%;
+         transition: all 0.5s;
+     }
+         footer .fa:hover {
+         footer .social.fa:hover {
+             background-color: #fff;
+             color: var(--main-color);
+         }
+     footer .btn.circle {
+         position: absolute;
+         top: -24px;
+         right: -13px;
+     }
+     footer .text-trio {
+         display: inline-block;
+         width: 100%;
+    }
+        footer .text-trio > .text {
+            display: inline-block;
+            padding: 0 10px;
+            position: relative;
+        }
+            footer .text-trio > .text::before {
+                display: inline-block;
+                content: '';
+                width: 1px;
+                height: 14px;
+                background-color: #fff;
+                position: absolute;
+                top: 50%;
+                left: -2px;
+                transform: translateY(-50%);
+            }
+            footer .text-trio > .text:first-of-type::before {
+                display: none;
+            }
+    footer p {
+        display: inline-block;
+        width: 100%;
+    }
+develop
     footer a {
         color: #fff;
         text-decoration: none;
     }
+back-to-top
 
+
+ develop
 @media (max-width: 700px) {
     footer .text-trio > .text {
         width: 100%;
